@@ -16,6 +16,16 @@ You can build the docker container by running:
 docker build .
 ```
 
+# Usage
+
+## Environment config
+
+* `NSM_NAME`               - Name of Endpoint
+* `NSM_NSNAME`             - Name of Network Service to Register with Registry
+* `NSM_TUNNEL_IP`          - IP to use for tunnels
+* `NSM_CONNECT_TO`         - url to connect to
+* `NSM_MAX_TOKEN_LIFETIME` - maximum lifetime of tokens
+
 # Testing
 
 ## Testing Docker container
